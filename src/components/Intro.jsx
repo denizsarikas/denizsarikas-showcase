@@ -1,14 +1,11 @@
-import image from '../assets/denizsite2.jpeg'
+import image from '../assets/images/denizsite2.jpeg'
 import SocialMediaIcons from './SocialMediaIcons'
 
 const Intro = () => {
   return (
     <div className="container-lg my-5">
 
-
-
       <div className="row align-items-center text-center">
-
 
         <div className="col">
           <div className="bg-primary text-light">
@@ -20,19 +17,14 @@ const Intro = () => {
             </p>
             <div className='row bg-'>
 
-
               <div className=''>
                 <button type="button" className="btn btn-success w-25" >Left</button>
                 <button type="button" className="btn btn-danger w-25" >Middle</button>
               </div>
 
-
-
               <div className='fs-3 bg-dark g-3'>
                 <SocialMediaIcons />
               </div>
-
-
 
             </div>
           </div>

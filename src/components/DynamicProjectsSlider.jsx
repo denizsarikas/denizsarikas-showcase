@@ -1,0 +1,1 @@
+//it will be done with react-slider.
