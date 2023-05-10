@@ -1,0 +1,10 @@
+-into sectionundaki resim responsive duzenlemeleri
+-contact responsive duzenlemeleri yapılmalı.
+-footer duzenlenmleri
+-tüm hepsinin içerikleri özelleştirilmeli
+-multi language yapılmalı en-tr
+-projeler dinamik hale gelmeli.
+-admin panel planlaması yapılmalı
+-blog ve commentler eklenmeli hem projelere hem de blog yazılarına
+-date-burc-
+-data aos veya react kaydırma ve dot section gibi şeyler.

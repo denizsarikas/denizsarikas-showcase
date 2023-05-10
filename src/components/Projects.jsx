@@ -1,4 +1,5 @@
 import ProjectsSlider from "./ProjectsSlider"
+import ProjectsPagination from "./ProjectsPagination"
 
 
 const Projects = () => {
@@ -7,6 +8,7 @@ const Projects = () => {
             <div className="row align-items-center text-center">
                 <h1>My projects</h1>
                 <ProjectsSlider />
+                <ProjectsPagination />
             </div>
         </div>
     )
