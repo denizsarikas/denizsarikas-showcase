@@ -1,10 +1,18 @@
+import { useTranslation } from 'react-i18next'
+
 const Header = () => {
+
+  const { i18n} = useTranslation()
+  const clickHandle = async (lang) => {
+   await i18n.changeLanguage(lang)
+
+  }
+
+
   return (
 
     <nav className="navbar navbar-expand-md navbar-light pt-3 pb-4 bg-warning">
-
       <div className="container-xxl ">
-
 
 
         <a className="navbar-brand text-white" href="#intro">
@@ -32,10 +40,16 @@ const Header = () => {
               <a className="nav-link" href="#contact">Get in Touch</a>
             </li>
             <li className="nav-item d-md-none">
-              <a className="nav-link" href="#pricing">Pricing</a>
+            <div className="btn-group" role="group" aria-label="Basic example">
+                <button type="button" onClick={() => clickHandle('tr')} className="btn btn-primary">tr</button>
+                <button type="button" onClick={() => clickHandle('en')} className="btn btn-primary">en</button>
+              </div>
             </li>
             <li className="nav-item ms-2 d-none d-md-inline">
-              <a className="btn btn-secondary" href="#pricing">buy now</a>
+              <div className="btn-group" role="group" aria-label="Basic example">
+                <button type="button" onClick={() => clickHandle('tr')} className="btn btn-primary">tr</button>
+                <button type="button" onClick={() => clickHandle('en')} className="btn btn-primary">en</button>
+              </div>
             </li>
 
           </ul>
