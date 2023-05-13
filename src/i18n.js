@@ -25,12 +25,9 @@ i18n
   .init({
 
     fallbackLng: 'tr',
-
-
     // backend: {
     //     loadPath: 'http://ornekapi/{{lng}}'
     // }
-
 
     // lng: 'tr',
     // resources

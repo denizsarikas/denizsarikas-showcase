@@ -1,9 +1,16 @@
 
+import { useTranslation } from 'react-i18next'
+
+
 const ContactForm = () => {
+
+    const {t} = useTranslation()
+
+
     return (
         <div className="container">
             <div className=" text-center mt-5 ">
-                <h1>Still have questions?</h1>
+                <h1>{t('titleContact')}</h1>
             </div>
             <div className="row ">
                 <div className=" col-md-8 col-12 m-auto">

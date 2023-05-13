@@ -1,3 +1,18 @@
 {
-    "welcome": "Welcome JSON."
+    "welcome": "Welcome JSON.",
+    "titleIntro": "Hi, I'm Deniz..",
+    "startbutton1": "Explore",
+    "startbutton2": "Contact me",
+    "titleProjects": "My projects",
+    "titleProjects2": "My projects with pagination",
+    "titleDownloadCV": "Take a look at my CV",
+    "titleFAQ": "FAQ",
+    "FAQquestion1": "Question1",
+    "FAQAnswer1": "Answer 1",
+    "FAQquestion2": "Question2",
+    "FAQAnswer2": "Answer 2",
+    "FAQquestion3": "Question3",
+    "FAQAnswer3": "Answer 3",
+    "titleContact": "Still have questions?",
+    "intro": "Thanks for visiting my portfolio. You can check my other projects and GitHub for source codes. Please read other sections to get to know me better. You can directly contact me from below by sending an email."
 }

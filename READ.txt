@@ -1,6 +1,5 @@
 
 -tüm hepsinin içerikleri özelleştirilmeli
--multi language yapılmalı en-tr
 -projeler dinamik hale gelmeli.
 -admin panel planlaması yapılmalı
 -blog ve commentler eklenmeli hem projelere hem de blog yazılarına
@@ -8,3 +7,5 @@
 -data aos veya react kaydırma ve dot section gibi şeyler.
 -contact form tam olarak içime sinmedi düzenlemeler yapılabilir.
 -navbar ayarlanmalı.
+-titlelar için bir component ayarlayıp Homepage'e o şekilde title ekleme düzenlemesi yap.
+-multi language konusunda buttonlar ve input değerleri labeller header ve nav ve projeler eklenmeli.

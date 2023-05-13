@@ -1,3 +1,18 @@
 {
-    "welcome": "Hoşgeldiniz JSON."
+    "welcome": "Hoşgeldiniz JSON.",
+    "titleIntro": "Merhaba, benim adım Deniz.",
+    "startbutton1": "Keşfet",
+    "startbutton2": "Bana ulaş",
+    "titleProjects": "Projelerim",
+    "titleProjects2": "Projelerimin pagination gösterimi",
+    "titleDownloadCV": "CV'me göz at",
+    "titleFAQ": "SSS",
+    "FAQquestion1": "Soru 1",
+    "FAQAnswer1": "Cevap 1",
+    "FAQquestion2": "Soru 2",
+    "FAQAnswer2": "Cevap 2",
+    "FAQquestion3": "Soru 3",
+    "FAQAnswer3": "Cevap 3",
+    "titleContact": "Bana mail gönder",
+    "intro": "Sitemi ziyaret ettiğiniz için teşekkür ederim. Projelerim ve onların kaynak kodlarından, Github ve diğer sosyal medya hesaplarıma, CV'me ve blog yazılarıma ve çok daha fazlasına göz atabilirsiniz. Benimle direkt olarak irtibat kurmak isterseniz aşağıdan mail gönderebilirsiniz."
 }
