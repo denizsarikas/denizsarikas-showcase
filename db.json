@@ -1,9 +1,54 @@
+
 {
   "posts": [
     {
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "about": "This is a summary about project 1",
+      "techs": "React NextJS blabla",
+      "imageURL": "pathtoimage1"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "about": "This is a summary about project 2",
+      "techs": "React NextJS blabla",
+      "imageURL": "pathtoimage2"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "about": "This is a summary about project 3",
+      "techs": "React NextJS blabla",
+      "imageURL": "pathtoimage3"
+    },
+    {
+      "id": 4,
+      "title": "Project 4",
+      "about": "This is a summary about project 4",
+      "techs": "React NextJS blabla",
+      "imageURL": "pathtoimage4"
+    },
+    {
+      "id": 5,
+      "title": "Project 5",
+      "about": "This is a summary about project 5",
+      "techs": "React NextJS blabla",
+      "imageURL": "pathtoimage6"
+    },
+    {
+      "id": 6,
+      "title": "Project 6",
+      "about": "This is a summary about project 6",
+      "techs": "React NextJS blabla",
+      "imageURL": "pathtoimage6"
     }
   ],
   "comments": [
