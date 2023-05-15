@@ -1,10 +1,18 @@
 
+import {useEffect} from "react";
 import './App.css'
 import { Route, Routes } from "react-router-dom";
 import MainLayout from "./components/MainLayout"
 import HomePage from "./pages/HomePage";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <Routes>

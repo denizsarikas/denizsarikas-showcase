@@ -8,7 +8,7 @@ const DownloadCV = () => {
 
 
     return (
-        <section id='cv' className="container align-items-center text-center">
+        <section id='cv' className="container align-items-center text-center" data-aos="flip-left">
             <h1>
             {t('titleDownloadCV')}
             </h1>

@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const DynamicProjectsSlider = ({ projects }) => {
   return (
-    <div className='bg-primary'>
+    <div className='bg-primary' data-aos="zoom-in">
       <Carousel className=''>
 
       {projects.map(project => (

@@ -12,14 +12,7 @@ react bootstrap veya react-slider + css ?
 
 minor changes:
 --------------
-
--form verileri için emailjs eklenmeli.
-
--data aos
-
 -dot section
-
--contact form tam olarak içime sinmedi düzenlemeler yapılabilir.
 
 -titlelar için bir component ayarlayıp Homepage'e o 
 şekilde title ekleme düzenlemesi yapılabilir.

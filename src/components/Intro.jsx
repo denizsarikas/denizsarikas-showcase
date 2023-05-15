@@ -13,7 +13,7 @@ const Intro = () => {
   return (
     <div className="container-lg my-5">
       <div className="row align-items-center text-center">
-        <div className="col">
+        <div className="col" data-aos="fade-right">
           <div className=" text-dark">
             <h1 className="p-5">
               {t('titleIntro')}
@@ -43,7 +43,7 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4" data-aos="fade-left">
           <div className=" text-light rounded-circle text-center">
             <img src={image} className="rounded-circle img-fluid" style={{ maxWidth: '90%', height: 'auto' }} />
             <div className='fs-4'>
