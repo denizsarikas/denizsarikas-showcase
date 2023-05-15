@@ -1,5 +1,5 @@
 import DynamicProjectCard from "./DynamicProjectCard"
-import StaticProjectsSlider from "./StaticProjectsSlider"
+import DynamicProjectsSlider from "./DynamicProjectsSlider";
 
 import { useTranslation } from 'react-i18next'
 
@@ -13,15 +13,15 @@ const Projects = () => {
     const { t } = useTranslation()
 
     return (
-        <div className="container-lg my-5">
+        <section id="projects" className="container-lg my-5">
             <div className="row align-items-center text-center">
                 <h1> {t('titleProjects')}</h1>
-                <StaticProjectsSlider />
                 {error && <div>{error}</div>}
                 {isPending && <div>Loading...</div>}
+                {projects && <DynamicProjectsSlider projects={projects} />}
                 {projects && <DynamicProjectCard projects={projects} />}
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,10 +1,12 @@
 
-import DynamicProjectsSlider from './DynamicProjectsSlider'
+
+import { Button } from 'react-bootstrap';
 
 const Test = () => {
   return (
-    <div>
-      <DynamicProjectsSlider />
+    <div className=''>
+      <Button variant="primary">Click Me!</Button>
+      <hr />
     </div>
   )
 }

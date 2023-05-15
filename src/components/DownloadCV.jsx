@@ -8,7 +8,7 @@ const DownloadCV = () => {
 
 
     return (
-        <div className="container align-items-center text-center">
+        <section id='cv' className="container align-items-center text-center">
             <h1>
             {t('titleDownloadCV')}
             </h1>
@@ -17,7 +17,7 @@ const DownloadCV = () => {
                     <button type="button" className="btn btn-success">Download CV</button>
                 </a>
             </div>
-        </div>
+        </section>
     )
 }
 

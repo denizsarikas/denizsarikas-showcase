@@ -2,16 +2,18 @@ import { useTranslation } from 'react-i18next'
 
 const Header = () => {
 
-  const { i18n} = useTranslation()
+
+
+  const { i18n } = useTranslation()
   const clickHandle = async (lang) => {
-   await i18n.changeLanguage(lang)
+    await i18n.changeLanguage(lang)
 
   }
 
 
   return (
 
-    <nav className="navbar navbar-expand-md navbar-light pt-3 pb-4 bg-warning">
+    <nav className="navbar navbar-expand-md navbar-light pt-3 pb-4 bg-warning sticky-top">
       <div className="container-xxl ">
 
 
@@ -31,40 +33,40 @@ const Header = () => {
         <div className="collapse navbar-collapse justify-content-end align-center" id="main-nav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#topics">About The Book</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#reviews">Reviews</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">Get in Touch</a>
-            </li>
-            <li className="nav-item d-md-none">
+          <li className="nav-item">
+            <a className="nav-link" href="#cv">CV</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#contact">Get in Touch</a>
+          </li>
+          <li className="nav-item d-md-none">
             <div className="btn-group" role="group" aria-label="Basic example">
-                <button type="button" onClick={() => clickHandle('tr')} className="btn btn-primary">tr</button>
-                <button type="button" onClick={() => clickHandle('en')} className="btn btn-primary">en</button>
-              </div>
-            </li>
-            <li className="nav-item ms-2 d-none d-md-inline">
-              <div className="btn-group" role="group" aria-label="Basic example">
-                <button type="button" onClick={() => clickHandle('tr')} className="btn btn-primary">tr</button>
-                <button type="button" onClick={() => clickHandle('en')} className="btn btn-primary">en</button>
-              </div>
-            </li>
+              <button type="button" onClick={() => clickHandle('tr')} className="btn btn-primary">tr</button>
+              <button type="button" onClick={() => clickHandle('en')} className="btn btn-primary">en</button>
+            </div>
+          </li>
+          <li className="nav-item ms-2 d-none d-md-inline">
+            <div className="btn-group" role="group" aria-label="Basic example">
+              <button type="button" onClick={() => clickHandle('tr')} className="btn btn-primary">tr</button>
+              <button type="button" onClick={() => clickHandle('en')} className="btn btn-primary">en</button>
+            </div>
+          </li>
 
-          </ul>
-        </div>
-
-
-
-
+        </ul>
       </div>
 
 
 
 
+    </div>
 
-    </nav>
+
+
+
+
+    </nav >
   )
 }
 

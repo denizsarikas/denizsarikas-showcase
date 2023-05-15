@@ -1,22 +1,30 @@
 // json-server --watch db.json
 
--
+biggies:
+------------
+
+- düz bootstrap yapısında kalınacak mı yoksa
+react bootstrap veya react-slider + css ?
 
 -admin panel planlaması yapılmalı
 
 -blog ve commentler eklenmeli hem projelere hem de blog yazılarına
 
--data aos veya react kaydırma ve dot section gibi şeyler.
+minor changes:
+--------------
+
+-form verileri için emailjs eklenmeli.
+
+-data aos
+
+-dot section
 
 -contact form tam olarak içime sinmedi düzenlemeler yapılabilir.
-
--navbar ayarlanmalı.
 
 -titlelar için bir component ayarlayıp Homepage'e o 
 şekilde title ekleme düzenlemesi yapılabilir.
 
--multi language: buttonlar ve input değerleri labeller 
-header ve nav ve projeler eklenmeli.
+-multi language duzenlemeleri
 
 
 ***date

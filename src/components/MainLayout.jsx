@@ -7,8 +7,8 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
   return (
     <main>
-      <Test />
       <Header />
+      <Test/>
       <Outlet />
       <Footer />
     </main>
