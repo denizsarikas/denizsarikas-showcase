@@ -1,8 +1,11 @@
-import React from 'react'
+
+import DynamicProjectsSlider from './DynamicProjectsSlider'
 
 const Test = () => {
   return (
-    <div>Test</div>
+    <div>
+      <DynamicProjectsSlider />
+    </div>
   )
 }
 
