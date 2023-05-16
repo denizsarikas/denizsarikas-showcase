@@ -3,6 +3,8 @@
 biggies:
 ------------
 
+-backend oluşturmaya başla
+
 - düz bootstrap yapısında kalınacak mı yoksa
 react bootstrap veya react-slider + css ?
 
